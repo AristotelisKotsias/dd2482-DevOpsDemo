@@ -32,5 +32,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8080"
+  "proxy": "http://localhost:8080",
+  "devDependencies": {
+    "easter-egg-collection": "^1.4.56"
+  }
 }

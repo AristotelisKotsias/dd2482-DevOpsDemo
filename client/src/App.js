@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import User from './components/User';
 import Nav from './components/Nav';
-import ListItems from './components/ListItems'
+import ListItems from './components/ListItems';
 import ErrorPage from './components/ErrorPage';
+import collection from 'easter-egg-collection';
+
 
 const Wrapper = styled.div`
   margin: 7em auto;
