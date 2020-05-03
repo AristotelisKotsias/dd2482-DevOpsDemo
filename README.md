@@ -49,4 +49,3 @@ Go to your favourite browser and type the address:
 `localhost:3000`
 
 Search GitHub users by username. Since at the moment the requests are unauthenticated, GitHub allows only 60 requests per hour and that included also the requests performed by the tests.
-
