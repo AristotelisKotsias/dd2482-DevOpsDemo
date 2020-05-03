@@ -6,7 +6,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-//app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static("public"));
 
 const notFound = 404;
 
@@ -78,7 +78,7 @@ app.get('/:username', async (req, res) => {
 });
 
  app.get('*', function(req, res) {
-   res.sendFile(path.join(__dirname, 'client/build/index.html'));
+   res.sendFile(path.join(__dirname, '/public/index.html'));
  });
 
 const port = process.env.PORT || 8080;
