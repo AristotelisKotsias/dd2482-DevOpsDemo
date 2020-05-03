@@ -12,18 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/GiorgosTagkoulis/GitHub_App.git"
+    "url": "git+ssh://git@github.com:AristotelisKotsias/dd2482-DevOpsDemo.git"
   },
   "keywords": [
     "github",
     "api"
   ],
-  "author": "Georgios Tagkoulis",
+  "author": "Georgios Tagkoulis, Aristotelis Kotsias",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GiorgosTagkoulis/GitHub_App/issues"
+    "url": "https://github.com/AristotelisKotsias/dd2482-DevOpsDemo"
   },
-  "homepage": "https://github.com/GiorgosTagkoulis/GitHub_App#readme",
+  "homepage": "https://searchappgithub-prod.herokuapp.com/",
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
