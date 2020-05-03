@@ -28,7 +28,7 @@ Once back to the root directory of the project (`cd ../` if one following the co
 
 Run the server in development:
 
-`npm start:dev`
+`npm run start:dev`
 
 Run the client:
 
