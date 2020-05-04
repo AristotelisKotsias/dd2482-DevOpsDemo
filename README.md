@@ -1,4 +1,4 @@
-## GigHub App
+## Demo app
 
 An app that make api calls to the GitHib API. It searches for users by username and presents various informations regarding followers, following and repos. Since at the moment the requests are unauthenticated, GitHub allows only 60 requests per hour and that included also the requests performed by the tests.
 
