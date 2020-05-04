@@ -7,41 +7,22 @@ const Wrapper = styled.div`
   flex-direction: column;
 `;
 
+const Li = styled.li`
+  list-style-type: none;
+`;
+
 const ListItems = (props) => {
     return (
       <Wrapper>
         <ul>
           {
             props.items[props.tab].map(item => 
-              <li key={props.items[props.tab].indexOf(item)}>{item}</li>
+              <Li key={props.items[props.tab].indexOf(item)}>{item}</ Li>
             )
           }
         </ul>
       </Wrapper>
     )
-      // <Wrapper>
-      //   <DownPart>
-      //     <Nav callback={this.activeTab} />
-      //     <BoldText>Followers</BoldText>
-      //     <ul>
-      //       {this.state.resources.followers.map((follower) => (
-      //         <li key={this.state.resources.followers.indexOf(follower)}>{follower}</li>
-      //       ))}
-      //     </ul>
-      //     <BoldText>Following</BoldText>
-      //     <ul>
-      //       {this.state.resources.following.map((user) => (
-      //         <li key={this.state.resources.following.indexOf(user)}>{user}</li>
-      //       ))}
-      //     </ul>
-      //     <BoldText>Repos</BoldText>
-      //     <ul>
-      //       {this.state.resources.repos.map((repo) => (
-      //         <li key={this.state.resources.repos.indexOf(repo)}>{repo}</li>
-      //       ))}
-      //     </ul>
-      //   </DownPart>
-      // </Wrapper>
 }
 
 export default ListItems;
