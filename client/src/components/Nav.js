@@ -20,6 +20,7 @@ const Anchor = styled.a`
   text-decoration: none;
   &:hover {
     background-color: green;
+    
   }
 `;
 
