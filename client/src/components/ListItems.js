@@ -7,13 +7,17 @@ const Wrapper = styled.div`
   flex-direction: column;
 `;
 
+const Li = styled.li`
+  list-style-type: none;
+`;
+
 const ListItems = (props) => {
     return (
       <Wrapper>
         <ul>
           {
             props.items[props.tab].map(item => 
-              <li key={props.items[props.tab].indexOf(item)}>{item}</li>
+              <Li key={props.items[props.tab].indexOf(item)}>{item}</ Li>
             )
           }
         </ul>

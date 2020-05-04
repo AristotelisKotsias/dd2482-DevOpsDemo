@@ -1,6 +1,6 @@
 ## GigHub App
 
-An app that make api calls to the GitHib API. It searches for users by username and presents various informations regarding followers, following and repos.
+An app that make api calls to the GitHib API. It searches for users by username and presents various informations regarding followers, following and repos. Since at the moment the requests are unauthenticated, GitHub allows only 60 requests per hour and that included also the requests performed by the tests.
 
 ### Install Dependencies
 
@@ -31,8 +31,19 @@ Keep in mind that in the a slow network, the second test might fail because it m
 
 ### Commence the application
 
-Go to your favourite browser and type the address:
+Locally you can run the app in the address: `localhost:3000`
 
-`localhost:3000`
+Since the app is deployed in Heroku, there is a staging and production link:
 
-Search GitHub users by username. Since at the moment the requests are unauthenticated, GitHub allows only 60 requests per hour and that included also the requests performed by the tests.
+Staging:        [https://searchappgithub.herokuapp.com](https://searchappgithub.herokuapp.com)
+Production:     [https://searchappgithub-prod.herokuapp.com](https://searchappgithub-prod.herokuapp.com)
+
+### Easter Eggs
+
+In the search bar, there are some easter egg keywords which you can type and see what happens.  
+Keywords include but not limited in: 
+- ufo
+- haha
+- wink
+
+npm library used for easter egg: `easter-egg-collection` 
