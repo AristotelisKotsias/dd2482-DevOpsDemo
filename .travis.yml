@@ -1,0 +1,15 @@
+language: node_js
+node_js: node
+script:
+  - npm run lint
+  - npm test
+deploy:
+  provider: heroku
+  api_key:
+    secure: DWHxRD3Gk4gXblFN6bNpiSjTxGFa14ktV31sx4Mwjo26utvIEWx924rJcuYYsJd4TsZWzT1NV3Ez8n4BsEOfejN7Yno6fVcILdFOUx5HZcA/Nl6VYfjq9oLPBw3FSgAkJfjQTOij6XxINT0HMKik6kprVEtnv5l8EVXwhoqGfqC2p98iExdjf8ZrpUZe6mewECXmgO6m17AtWXSh8WYmKyoKO5Wvq9qvFOceHn9WzmbOkDJ/Sl8tfLvKd4DT9bfnBFcWnRcXSovsydeMRjjNceKH3FgoTqX5vh878H3UlSKi7vzZBcn4AKVLDo9Zy+DXt+EB9sNO7Q/rAhQCNnwJh64sIvRFUYUcWJLgvB1IIuMwcyOPHA1bP4CCTUXlmq6n+LrjwYOYmke306F2WYG+mJRM+iBjlFV9QcBQ9pWTGEdBVpsXeC2LAOlDOv+IAOXUnN4lT8Mi1CV487yj5GrroQZPZlG/0o4aUakKZzOBUn39ugNgLmwgMPPga1J2z5j1i0jj5lxWB6hSpaAbT4KTPd7+E8dBSwNXALd2xs9AemDZ0QQeUZN/LK6sHfyth8cTI7YW06hLw4zThHEVg8zkZ9ZgBmf4A8mRCx6ZbwwCLMKo1/DCkrn7Al5FJQSk2WNtB5I0Dogda0AHsVDwEKbE1KpcKSbVMsQna8++KDokiFg=
+  app: 
+    master: my-github-app-prod
+    development: my-github-app-stage
+  on:
+    repo: AristotelisKotsias/dd2482-DevOpsDemo
+  skip_cleanup: 'true'
