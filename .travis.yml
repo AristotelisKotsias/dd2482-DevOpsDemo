@@ -5,3 +5,10 @@ cache:
   directories:
     - "node_modules"
 
+deploy:
+  provider: heroku
+  api_key: 938af3b9-e941-4f53-a275-dea3f4cc0575
+  app:
+    master: searchappgithub-prod
+    feature: searchappgithub
+
