@@ -38,7 +38,7 @@ Since the app is deployed in Heroku, there is a staging and production link:
 Staging:        [https://my-github-app-stage.herokuapp.com](https://my-github-app-stage.herokuapp.com/)  
 Production:     [https://my-github-app-prod.herokuapp.com](https://my-github-app-prod.herokuapp.com/)
 
-A YouTube video showing a CI/CD Pipeline with Travis-CI and Heroku, using this repository can be found [https://www.youtube.com/watch?v=8RSjgaFlGc0&feature=youtu.be&fbclid=IwAR05OncWU9F95VB2bvrIyaTq2zVcbsFXAJesgabKPpri97HFHJ9jZ4joCSY](here).
+A YouTube video showing a CI/CD Pipeline with Travis-CI and Heroku, using this repository can be found [here](https://www.youtube.com/watch?v=8RSjgaFlGc0&feature=youtu.be&fbclid=IwAR05OncWU9F95VB2bvrIyaTq2zVcbsFXAJesgabKPpri97HFHJ9jZ4joCSY).
 
 ### Easter Eggs
 
