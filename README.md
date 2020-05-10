@@ -35,8 +35,8 @@ Locally you can run the app in the address: `localhost:3000`
 
 Since the app is deployed in Heroku, there is a staging and production link:
 
-Staging:        [https://searchappgithub.herokuapp.com](https://my-github-app-stage.herokuapp.com/)  
-Production:     [https://searchappgithub-prod.herokuapp.com](https://my-github-app-prod.herokuapp.com/)
+Staging:        [https://my-github-app-stage.herokuapp.com](https://my-github-app-stage.herokuapp.com/)  
+Production:     [https://my-github-app-prod.herokuapp.com](https://my-github-app-prod.herokuapp.com/)
 
 ### Easter Eggs
 
